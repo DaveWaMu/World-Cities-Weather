@@ -1,6 +1,6 @@
 # World-Cities-Weather
 
-World map of weather in cities across the globe with Python requests, APIs, and JSON. Created with Pandas and Matplotlib. Random city coordinates are generated and plotted with [citipy Python library](https://pypi.org/project/citipy/), the [OpenWeatherMap API](https://openweathermap.org/api), and [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) to create a representative model of weather across world cities.
+Analysis of weather in cities across the globe with Python requests, APIs, and JSON. Created with Pandas and Matplotlib. Random city coordinates are generated and plotted with [citipy Python library](https://pypi.org/project/citipy/), the [OpenWeatherMap API](https://openweathermap.org/api), and [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) to create a representative model of weather across world cities.
 
 ## WeatherPy
 
@@ -17,6 +17,11 @@ Python script to visualize the weather of 500+ cities across the world of varyin
   - Humidity (%) vs. Latitude
   - Cloudiness (%) vs. Latitude
   - Wind Speed (mph) vs. Latitude
+
+### Scatter Plot
+
+![Figure1](output_data/Figure1.png)
+
 - Perform linear regression on each relationship.
 - Separate the plots into Northern and Southern Hemispheres.
 - Temperature (F) vs. Latitude
@@ -31,6 +36,10 @@ Python script to visualize the weather of 500+ cities across the world of varyin
 - Perform a weather check on each of the cities using a series of successive API calls.
 - Include a print log of each city as it is being processed with the city number and city name.
 - Save a CSV of all retrieved data and a PNG image for each scatter plot.
+
+### Linear Regression
+
+![Figure6](output_data/Figure6.png)
 
 ## VacationPy
 
